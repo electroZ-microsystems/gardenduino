@@ -1,0 +1,9 @@
+Added Component: Designator=U1(SOT-223)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "name"; Value = "LD1117S50CTR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "value"; Value = "5V"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=U1-1
+Added Pin To Net: NetName=5V Pin=U1-2
+Added Pin To Net: NetName=7V Pin=U1-3
+Added Pin To Net: NetName=5V Pin=U1-4
+Added Member To Class: ClassName=pumpController Member=Component U1 LD1117S50CTR

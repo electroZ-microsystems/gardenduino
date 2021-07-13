@@ -1,0 +1,75 @@
+Protel Design System Design Rule Check
+PCB File : C:\git\lily\altium\PumpController\pumpController.PcbDoc
+Date     : 13.03.2018
+Time     : 10:09:31
+
+Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
+Rule Violations :0
+
+Processing Rule : Net Antennae (Tolerance=0mm) (All)
+Rule Violations :0
+
+Processing Rule : Silk to Silk (Clearance=0.254mm) (All),(All)
+   Violation between Silk To Silk Clearance Constraint: (0.223mm < 0.254mm) Between Text "C13" (95.885mm,90.043mm) on Top Overlay And Track (96.311mm,85.441mm)(96.311mm,102.041mm) on Top Overlay Silk Text to Silk Clearance [0.223mm]
+Rule Violations :1
+
+Processing Rule : Silk To Solder Mask (Clearance=0.15mm) (IsPad),(All)
+   Violation between Silk To Solder Mask Clearance Constraint: (0.103mm < 0.15mm) Between Track (96.311mm,85.441mm)(96.311mm,102.041mm) on Top Overlay And Pad C13-1(95.631mm,87.642mm) on Top Layer [Top Overlay] to [Top Solder] clearance [0.103mm]
+   Violation between Silk To Solder Mask Clearance Constraint: (0.103mm < 0.15mm) Between Track (96.311mm,85.441mm)(96.311mm,102.041mm) on Top Overlay And Pad C13-2(95.631mm,89.142mm) on Top Layer [Top Overlay] to [Top Solder] clearance [0.103mm]
+Rule Violations :2
+
+Processing Rule : Minimum Solder Mask Sliver (Gap=0.254mm) (All),(All)
+   Violation between Minimum Solder Mask Sliver Constraint: (0.042mm < 0.254mm) Between Pad U3-1(64.563mm,87.585mm) on Top Layer And Pad U3-28(63.963mm,88.185mm) on Top Layer [Top Solder] Mask Sliver [0.042mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.042mm < 0.254mm) Between Pad U3-21(64.563mm,91.485mm) on Top Layer And Pad U3-22(63.963mm,90.885mm) on Top Layer [Top Solder] Mask Sliver [0.042mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.042mm < 0.254mm) Between Pad U3-14(67.863mm,90.885mm) on Top Layer And Pad U3-15(67.263mm,91.485mm) on Top Layer [Top Solder] Mask Sliver [0.042mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.042mm < 0.254mm) Between Pad U3-7(67.263mm,87.585mm) on Top Layer And Pad U3-8(67.863mm,88.185mm) on Top Layer [Top Solder] Mask Sliver [0.042mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.217mm < 0.254mm) Between Via (80.899mm,89.662mm) from Top Layer to Bottom Layer And Pad C12-1(81.038mm,88.392mm) on Top Layer [Top Solder] Mask Sliver [0.217mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.247mm < 0.254mm) Between Pad P6-5(59.69mm,102.108mm) on Top Layer And Pad P6-6(60.94mm,102.108mm) on Top Layer [Top Solder] Mask Sliver [0.247mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.247mm < 0.254mm) Between Pad P6-4(58.44mm,102.108mm) on Top Layer And Pad P6-5(59.69mm,102.108mm) on Top Layer [Top Solder] Mask Sliver [0.247mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.127mm < 0.254mm) Between Via (60.579mm,100.711mm) from Top Layer to Bottom Layer And Pad P6-5(59.69mm,102.108mm) on Top Layer [Top Solder] Mask Sliver [0.127mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.247mm < 0.254mm) Between Pad P6-3(57.19mm,102.108mm) on Top Layer And Pad P6-4(58.44mm,102.108mm) on Top Layer [Top Solder] Mask Sliver [0.247mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.247mm < 0.254mm) Between Pad P6-2(55.94mm,102.108mm) on Top Layer And Pad P6-3(57.19mm,102.108mm) on Top Layer [Top Solder] Mask Sliver [0.247mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.247mm < 0.254mm) Between Pad P6-1(54.69mm,102.108mm) on Top Layer And Pad P6-2(55.94mm,102.108mm) on Top Layer [Top Solder] Mask Sliver [0.247mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.217mm < 0.254mm) Between Via (71.513mm,80.899mm) from Top Layer to Bottom Layer And Pad C7-2(71.513mm,79.629mm) on Top Layer [Top Solder] Mask Sliver [0.217mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.19mm < 0.254mm) Between Via (53.594mm,75.946mm) from Top Layer to Bottom Layer And Pad U4-5(53.594mm,77.714mm) on Top Layer [Top Solder] Mask Sliver [0.19mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.241mm < 0.254mm) Between Pad D1-1(76.708mm,72.39mm) on Top Layer And Pad R2-1(78.752mm,72.644mm) on Top Layer [Top Solder] Mask Sliver [0.241mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.128mm < 0.254mm) Between Via (51.054mm,89.154mm) from Top Layer to Bottom Layer And Pad D2-1(50.292mm,90.885mm) on Top Layer [Top Solder] Mask Sliver [0.128mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.241mm < 0.254mm) Between Pad R1-1(78.752mm,74.041mm) on Top Layer And Pad D1-1(76.708mm,72.39mm) on Top Layer [Top Solder] Mask Sliver [0.241mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.052mm < 0.254mm) Between Via (74.803mm,72.771mm) from Top Layer to Bottom Layer And Pad D1-1(76.708mm,72.39mm) on Top Layer [Top Solder] Mask Sliver [0.052mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.217mm < 0.254mm) Between Via (94.361mm,89.408mm) from Top Layer to Bottom Layer And Pad C13-2(95.631mm,89.142mm) on Top Layer [Top Solder] Mask Sliver [0.217mm]
+Rule Violations :18
+
+Processing Rule : Hole To Hole Clearance (Gap=0.254mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Hole Size Constraint (Min=0.025mm) (Max=2.54mm) (All)
+   Violation between Hole Size Constraint: (4mm > 2.54mm) Pad Free-3(35.687mm,104.267mm) on Multi-Layer Actual Hole Size = 4mm
+   Violation between Hole Size Constraint: (4mm > 2.54mm) Pad Free-4(76.2mm,64.516mm) on Multi-Layer Actual Hole Size = 4mm
+   Violation between Hole Size Constraint: (4mm > 2.54mm) Pad Free-3(76.2mm,104.267mm) on Multi-Layer Actual Hole Size = 4mm
+   Violation between Hole Size Constraint: (3.25mm > 2.54mm) Pad P3-10(35.042mm,66.167mm) on Multi-Layer Actual Hole Size = 3.25mm
+   Violation between Hole Size Constraint: (3.25mm > 2.54mm) Pad P3-10(35.042mm,77.597mm) on Multi-Layer Actual Hole Size = 3.25mm
+   Violation between Hole Size Constraint: (3.25mm > 2.54mm) Pad P1-10(35.042mm,85.979mm) on Multi-Layer Actual Hole Size = 3.25mm
+   Violation between Hole Size Constraint: (3.25mm > 2.54mm) Pad P1-10(35.042mm,97.409mm) on Multi-Layer Actual Hole Size = 3.25mm
+Rule Violations :7
+
+Processing Rule : Height Constraint (Min=0mm) (Max=25.4mm) (Prefered=12.7mm) (All)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=0.2mm) (Max=5mm) (Preferred=0.254mm) (All)
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.254mm) (Entries=4) (All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.19mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Un-Routed Net Constraint ( (All) )
+Rule Violations :0
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+Rule Violations :0
+
+
+Violations Detected : 28
+Time Elapsed        : 00:00:00

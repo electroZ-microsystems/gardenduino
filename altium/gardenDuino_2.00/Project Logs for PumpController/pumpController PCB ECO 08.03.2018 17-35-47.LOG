@@ -1,0 +1,14 @@
+Change Component Comment : Designator=P5 Old Comment=Power IN New Comment=24V
+Change Component Comment : Designator=P7 Old Comment=Power IN New Comment=24V
+Added Component: Designator=C13(0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "value"; Value = "100nF"; VariantName = "[No Variations]"
+Added Component: Designator=C14(0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "value"; Value = "100nF"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=5V_out Pin=C13-1
+Added Pin To Net: NetName=GND Pin=C13-2
+Added Pin To Net: NetName=5V_out Pin=C14-1
+Added Pin To Net: NetName=GND Pin=C14-2
+Added Member To Class: ClassName=pumpController Member=Component C13 100nF
+Added Member To Class: ClassName=pumpController Member=Component C14 100nF
