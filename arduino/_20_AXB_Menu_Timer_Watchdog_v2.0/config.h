@@ -39,11 +39,13 @@
 //#define LARGE_FONT Verdana12
 //#define LARGE_FONT  X11fixed7x14B
 
-//Navigate buttons
+//Navigate buttons (Negative value = inverted imput (Active Low))
 #define BTN_SEL     12                 // Select button
-#define BTN_UP      13                  // Up Button
-#define BTN_DOWN    9                 // Down Button
+#define BTN_UP      13                 // Up Button
+#define BTN_DOWN    9                  // Down Button
 #define BTN_ESC     1                  // Exit Button
+
+
 
 // Comment the following to disable internal pullup for Navigate buttons
 #define NAV_BUTTONS_INPUT_PULLUP

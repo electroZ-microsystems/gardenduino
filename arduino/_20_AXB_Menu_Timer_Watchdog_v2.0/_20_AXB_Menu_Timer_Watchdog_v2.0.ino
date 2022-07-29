@@ -185,11 +185,16 @@ menuOut* constMEM outputs[]  MEMMODE  = {&outOLED}; //list of output devices
 outputsList out(outputs, 1); //outputs list
 
 //build a map of keys to menu commands
-keyMap joystickBtn_map[] = {
+/*keyMap joystickBtn_map[] = {
    { -BTN_SEL, defaultNavCodes[enterCmd].ch} ,
    { -BTN_UP, defaultNavCodes[upCmd].ch} ,
    { -BTN_DOWN, defaultNavCodes[downCmd].ch} 
-};
+};*/
+
+keyMap joystickBtn_map[] = {
+   { BTN_SEL, defaultNavCodes[enterCmd].ch} ,
+   { BTN_UP, defaultNavCodes[upCmd].ch} ,
+   { BTN_DOWN, defaultNavCodes[downCmd].ch} };
 
 keyIn<TOTAL_NAV_BUTTONS> joystickBtns(joystickBtn_map);//the input driver
 
